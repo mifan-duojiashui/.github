@@ -15,7 +15,7 @@
 
 1. 双击打开安装包，一路下一步，**到调整 PATH 这一步，选择 Git from the command line and also from 3rd-party software**（最重要！把 Git 加入系统环境变量）
 2. 其余选项保持默认，直接下一步完成安装。
-
+3. 打开 PowerShell 输入 `git --version`，输出版本号代表安装成功。
 ### 3. 配置 Git 用户名与邮箱（必须设置，否则提交报错）
 
 Git 的 `user.name` 和 `user.email` 用于标记提交作者，不是 GitHub 登录凭据。`user.name` 可以使用自己的显示名；邮箱应使用 GitHub 账号已验证的邮箱，或在 GitHub「Settings → Emails」中提供的完整 `noreply` 地址。不要把密码或访问令牌填入这两个配置项。
